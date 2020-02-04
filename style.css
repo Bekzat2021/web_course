@@ -1,0 +1,37 @@
+body{
+    padding: 40px;
+}
+
+#header{
+    height: 120px;
+    background-color: darkblue;
+}
+
+#content{
+    position: relative;
+    top: 100px;
+    left: -70px;
+    height: 360px;
+    padding: 40px;
+    background-color: orange;
+}
+
+#div1-a{
+    height: 120px;
+    background-color: purple;
+}
+
+#div1-b{
+    height: 160px;
+    background-color: salmon;
+}
+
+#div1-c{
+    height: 80px;
+    background-color: slateblue;
+}
+
+#footer{
+    height: 120px;
+    background-color: darkblue;
+}
