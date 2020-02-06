@@ -17,6 +17,9 @@ body{
 }
 
 #div1-a{
+    position: absolute;
+    top: 0px;
+    right: 0px;
     height: 120px;
     background-color: purple;
 }
