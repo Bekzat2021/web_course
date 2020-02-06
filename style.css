@@ -21,6 +21,10 @@ body{
     background-color: purple;
 }
 
+.p1{
+    padding: 0px;
+}
+
 #div1-b{
     height: 160px;
     background-color: salmon;
