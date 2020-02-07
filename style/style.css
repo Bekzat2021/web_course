@@ -1,0 +1,108 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrap{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(../images/header_text_bg.gif);
+    ;
+    height: 150px;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.header h1{
+    padding: 50px;
+    color: lightyellow;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: limegreen;
+}
+
+.div1-a{
+    background-color: rgb(252, 252, 126);
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.div1-a img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.div1-b{
+    background-color: rgb(252, 252, 126);
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.div1-b img{
+    float: right;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.div1-c{
+    background-color: rgb(252, 252, 126);
+    margin: 30px;
+    padding-top: 20px;
+}
+/*
+.div1-c img{
+    width: 20%;
+    margin-left: 40%;
+}
+*/
+.textimg{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+p{
+    padding: 10px 5px 30px 10px;
+}
+
+h2, h3, h4{
+    padding: 5px 0px 5px 40px;
+}
+
+.footer{
+    height: 120px;
+    width: 100%;
+    text-align: right;
+    background-color: lightgreen;
+}
+
+.footer, p{
+    margin: 0px;
+}
+
+.ftr{
+    width: 300px;
+    float: left;
+}
+
+.ftl{
+    float: right;
+    width: 300px;
+}
