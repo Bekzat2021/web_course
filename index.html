@@ -4,30 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GreenyBox</title>
-    <link rel="stylesheet" href="style/style.css">
+    <title>Четное/Не четное</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="javascript/script.js" text="text/javascript"></script>
 </head>
-<div class="main">
-        <input type="text" class="inputElement" placeholder="Ваше имя*">
-        <input type="text" class="inputElement" placeholder="Ваш Email*">
-        <input type="file" class="inputElement" placeholder="Файлы для верстки">
-        <textarea name="commentArea" class="inputElement" id="" cols="30" rows="10"
-        placeholder="Комментарий или ссылка на макеты / задание"></textarea>
-        <div class="checkBox">
-            <input type="checkbox" id="checkLicense">
-            <label for="checkLicense">Я принимаю условия <a href="">политики конфиденциальности</a> и даю согласие на
-            обработку персональных данных</label>
-        </div>
-        <div class="flexButton">
-            <button class="inputButton">
-                ОТПРАВИТЬ
-            </button>
-        </div>
-</div>
 
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
 
+            </div>
+
+            <div class="col" style="margin-top: 50px;">
+
+                <div class="card border-primary mb-3 text-center">
+
+                    <div class="card-header">Четное / Не четное</div>
+
+                    <div class="card-body text-primary">
+                        <input type="text" name="number" id="num" placeholder="Введите число"
+                            onchange="Activate(num, btn1, btn2, result)">
+                        <p></p>
+                        <button class="btn btn-primary" id="btn1" disabled
+                            onclick="calculate(num, result)">Вычеслить</button>
+                        <button class="btn btn-primary" id="btn2" disabled
+                            onclick="Clear(num, result)">Очистить</button>
+                        <p></p>
+                        <p id="result"></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
